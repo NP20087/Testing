@@ -40,6 +40,7 @@ function setup(){
 
 function draw(){
     background(backgroundImg);
+    text('helloMoto',100,100);
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
